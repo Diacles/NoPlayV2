@@ -10,6 +10,46 @@
         "id": "heading",
         "label": "Heading",
         "default": "My Custom Heading"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Intro Image"
+      },
+      {
+        "type": "range",
+        "id": "image_overlay_opacity",
+        "min": 0,
+        "max": 100,
+        "step": 10,
+        "unit": "%",
+        "label": "Opacité",
+        "default": 0
+      },
+      {
+        "type": "select",
+        "id": "image_height",
+        "options": [
+          {
+            "value": "adapt",
+            "label": "Adapter à première image"
+          },
+          {
+            "value": "small",
+            "label": "Petit"
+          },
+          {
+            "value": "medium",
+            "label": "Moyen"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ],
+        "default": "medium",
+        "label": "Moyen par défaut",
+        "info": "Utiliser image en 3.2."
       }
     ],
     "blocks" : [
@@ -91,7 +131,6 @@
         }
       ]
       }
-      
     ]
   }
 {% endschema %}
