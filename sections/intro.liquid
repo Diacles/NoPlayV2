@@ -1,4 +1,6 @@
 <h1>{{ section.settings.heading }}</h1>
+<h1>{{ section.settings.heading }}</h1>
+<h1>{{ section.settings.heading }}</h1>
 {% schema %}
   {
     "name": "Intro",
@@ -23,57 +25,56 @@
         ]
       },
       {
-      "type": "buttons",
-      "name": "buttons",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "button_label",
-          "default": "Button label",
-          "label": "Button label",
-          "info": "For text in button"
-        },
-        {
-          "type": "url",
-          "id": "button_link",
-          "label": "Button link"
-        }
+        "type": "buttons",
+        "name": "buttons",
+        "settings": [
+          {
+            "type": "text",
+            "id": "button_label",
+            "default": "Button label",
+            "label": "Button label",
+            "info": "For text in button"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button link"
+          }
         ]
       },
       {
-      "type": "heading",
-      "name": "image",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "inline_richtext",
-          "id": "heading",
-          "default": "Image banner",
-          "label": "Image banner"
-        },
-        {
-          "type": "select",
-          "id": "heading_size",
-          "options": [
-            {
-              "value": "h2",
-              "label": "Titre H2"
-            },
-            {
-              "value": "h1",
-              "label": "Titre H1"
-            },
-            {
-              "value": "h0",
-              "label": "Titre H0"
-            }
-          ],
-          "default": "h1",
-          "label": "Titre H1 Défaut"
-        }
-      ]
-    },
+        "type": "heading",
+        "name": "image",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "inline_richtext",
+            "id": "heading",
+            "default": "Image banner",
+            "label": "Image banner"
+          },
+          {
+            "type": "select",
+            "id": "heading_size",
+            "options": [
+              {
+                "value": "h2",
+                "label": "Titre H2"
+              },
+              {
+                "value": "h1",
+                "label": "Titre H1"
+              },
+              {
+                "value": "h0",
+                "label": "Titre H0"
+              }
+            ],
+            "default": "h1",
+            "label": "Titre H1 Défaut"
+          }
+        ]
+      }
     ],
     "presets": [
       {
