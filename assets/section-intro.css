@@ -1,6 +1,9 @@
 .section-header {
     display: none;
 }
+.section-footer {
+    display: none;
+}
 .banner {
     display: flex;
     position: relative;
