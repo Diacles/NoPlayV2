@@ -1,3 +1,6 @@
+.section-header {
+    display: none;
+}
 .banner {
     display: flex;
     position: relative;
@@ -479,4 +482,4 @@
       color: currentColor;
     }
   }
-  
+
