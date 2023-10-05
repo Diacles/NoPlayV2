@@ -33,7 +33,7 @@
       "type": "intro",
       "settings": {
         "image": "shopify:\/\/shop_images\/banniere_3.2.jpg",
-        "image_overlay_opacity": 20,
+        "image_overlay_opacity": 80,
         "image_height": "large"
       }
     }
