@@ -32,7 +32,8 @@
     "436ffcbb-22a8-4d1d-a121-b64b0be8d1d5": {
       "type": "intro",
       "settings": {
-        "image": "shopify:\/\/shop_images\/banniere_3.2.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/banniere_3.2.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/banniere_10.8.jpg",
         "image_overlay_opacity": 70,
         "image_height": "large"
       }
