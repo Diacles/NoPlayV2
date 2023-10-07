@@ -3511,3 +3511,7 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+@font-face {
+  font-family: "Horizon";
+  src: url("{{ '[horizon.otf]' | https://cdn.shopify.com/s/files/1/0754/3560/6341/files/horizon.otf?v=1696714573 }}") format("[OpenType]");
+}
