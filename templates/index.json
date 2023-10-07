@@ -35,7 +35,7 @@
         "image_desktop": "shopify:\/\/shop_images\/banniere_3.2.jpg",
         "image_mobile": "shopify:\/\/shop_images\/banniere_10.8.jpg",
         "image_overlay_opacity": 70,
-        "image_height": "large"
+        "image_height": "small"
       }
     }
   },
