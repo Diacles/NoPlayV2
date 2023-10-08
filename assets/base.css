@@ -3516,3 +3516,6 @@ details-disclosure > details {
   font-family: "Horizon";
   src: url("{{ '[horizon.otf]' | https://cdn.shopify.com/s/files/1/0754/3560/6341/files/horizon.otf?v=1696714573 }}") format("[OpenType]");
 }
+.full-width{
+  width: 100%;
+}
