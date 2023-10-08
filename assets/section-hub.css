@@ -100,3 +100,7 @@
   .a-decoration{
     text-decoration: none;
   }
+
+  .margin-none{
+    margin:0px;
+  }
