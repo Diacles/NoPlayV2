@@ -24,7 +24,34 @@
       }
     ],
     "blocks":[
-      
+      {
+        "type": "buttons",
+        "name": "buttons",
+        "settings": [
+          {
+            "type": "text",
+            "id": "button_label",
+            "default": "Button label",
+            "label": "Button label",
+            "info": "For text in button"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Hub",
+        "blocks": [
+          {
+            "type": "buttons"
+          }
+        ]
+      }
     ]
   }
 {% endschema %}
