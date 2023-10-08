@@ -8,6 +8,46 @@
         "padding_bottom": 28
       }
     },
+    "99acd50c-6dbe-4e1c-ad3e-a79fc34bc1ba": {
+      "type": "hub",
+      "blocks": {
+        "template--19856650797381__99acd50c-6dbe-4e1c-ad3e-a79fc34bc1ba-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "SHOP",
+            "button_link": "shopify:\/\/collections\/all",
+            "heading_size": "h2"
+          }
+        },
+        "f786c3ea-5b54-4d1f-9c9e-c6b329287108": {
+          "type": "heading",
+          "settings": {
+            "heading": "BOOK2023",
+            "button_link": "",
+            "heading_size": "h2"
+          }
+        },
+        "b002e4e9-8d9f-443d-a188-e3b648f41f0b": {
+          "type": "heading",
+          "settings": {
+            "heading": "DVD",
+            "button_link": "",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--19856650797381__99acd50c-6dbe-4e1c-ad3e-a79fc34bc1ba-heading-1",
+        "f786c3ea-5b54-4d1f-9c9e-c6b329287108",
+        "b002e4e9-8d9f-443d-a188-e3b648f41f0b"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "07882013-b2bd-4803-b265-04496caa0f32": {
       "type": "image-banner",
       "settings": {
@@ -28,6 +68,7 @@
   },
   "order": [
     "main",
+    "99acd50c-6dbe-4e1c-ad3e-a79fc34bc1ba",
     "07882013-b2bd-4803-b265-04496caa0f32"
   ]
 }
