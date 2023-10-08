@@ -12,7 +12,7 @@
                   {{ block.settings.image | image_url: '360' | img_tag: 'Logo' }}
               {% else %}
                 <h2
-                  class="hub-menu-margin rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                  class="element-width hub-menu-margin rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                   {{ block.shopify_attributes }}
                   {% if settings.animations_reveal_on_scroll %}
                     data-cascade
