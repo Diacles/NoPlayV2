@@ -16,7 +16,7 @@
           "settings": {
             "heading": "SHOP",
             "button_link": "shopify:\/\/collections\/all",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "f786c3ea-5b54-4d1f-9c9e-c6b329287108": {
@@ -24,7 +24,7 @@
           "settings": {
             "heading": "BOOK2023",
             "button_link": "",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "b002e4e9-8d9f-443d-a188-e3b648f41f0b": {
