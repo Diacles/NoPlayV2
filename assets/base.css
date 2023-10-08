@@ -2531,8 +2531,8 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 /* Header icons */
 .header__icons {
-  display: none;
   display: flex;
+  display: none;
   grid-area: icons;
   justify-self: end;
   padding-right: 0.8rem;
