@@ -101,6 +101,7 @@
     text-decoration: none;
   }
 
-  .margin-none{
-    margin:0px;
+  .hub-menu-margin{
+    margin-top:1vh;
+    margin-bottom:1vh;
   }
