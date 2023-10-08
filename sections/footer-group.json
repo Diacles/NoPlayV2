@@ -4,6 +4,18 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "fa1c8c90-4efa-4027-9140-3843bcc5231c": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "fa1c8c90-4efa-4027-9140-3843bcc5231c"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": false,
@@ -14,7 +26,7 @@
         "enable_language_selector": false,
         "payment_enable": false,
         "show_policy": false,
-        "margin_top": 0,
+        "margin_top": 32,
         "padding_top": 0,
         "padding_bottom": 0
       }
