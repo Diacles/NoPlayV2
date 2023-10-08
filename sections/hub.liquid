@@ -9,7 +9,10 @@
           {%- when 'heading' -%}
             <a href="{{ block.settings.button_link }}">
               {% if block.settings.image != blank %}
-                <img src="{{ block.settings.image }}" alt="">
+                {{
+                  block.settings.image
+                  | image_url:
+                }}
               {% else %}
                 <h2
                   class="rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
