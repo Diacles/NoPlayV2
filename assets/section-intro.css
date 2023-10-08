@@ -497,10 +497,9 @@ footer {
   .color-background-transparent{
     background: transparent;
   }
-  @font-face {
-    font-family: "Horizon";
-    src: url("{{ '[horizon.otf]' | https://cdn.shopify.com/s/files/1/0754/3560/6341/files/horizon.otf?v=1696714573 }}") format("[OpenType]");
+
+  .button-text {
+    opacity: 0.5;
+    color: white;
+    font-size: 2.5rem;
   }
-  .text {
-    font-family: "Horizon", sans-serif;
-}
