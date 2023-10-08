@@ -94,6 +94,7 @@
   }
   
   .hub-margin{
+    width: max-content;
     margin-bottom: 5vh;
   }
 
