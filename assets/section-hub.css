@@ -109,3 +109,7 @@
   .element-width{
     width: max-content;
   }
+
+  .small-width{
+    width: 130px;
+  }
