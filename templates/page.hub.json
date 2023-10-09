@@ -16,7 +16,7 @@
           "settings": {
             "heading": "SHOP",
             "button_link": "shopify:\/\/collections\/all",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "f786c3ea-5b54-4d1f-9c9e-c6b329287108": {
@@ -24,7 +24,7 @@
           "settings": {
             "heading": "BOOK2023",
             "button_link": "",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "b002e4e9-8d9f-443d-a188-e3b648f41f0b": {
@@ -49,6 +49,15 @@
         "padding_bottom": 52
       }
     },
+    "1abe248e-12da-4361-a544-0248f3b9e952": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Animation CSS<\/title>\n    <style>\n        @font-face {\n            font-family: \"Horizon\";\n            src: url('horizon.woff') format('woff'); \/* Format WOFF *\/\n            font-weight: normal;\n            font-style: normal;\n        }\n\n        body {\n            font-family: \"Horizon\", sans-serif; \/* Utilisation de la police définie *\/\n            margin: 0;\n            padding: 0;\n        }\n\n        h1 {\n            font-size: 4rem;\n            margin: 0px;\n        }\n\n        .container {\n            overflow: hidden;\n            background-color: black;\n            width: 100%;\n            height: auto;\n            overflow: hidden;\n            position: relative;\n        }\n\n        .text {\n            color: white;\n            white-space: nowrap;\n            position: relative;\n            animation: defilement 30s linear infinite;\n        }\n\n        @keyframes defilement {\n            0% {\n                left: -100%; \/* Départ à droite *\/\n            }\n            50% {\n                left: 0%; \/* Arrêt à gauche à mi-chemin *\/\n            }\n            100% {\n                left: -100%; \/* Retour à droite *\/\n            }\n        }\n    <\/style>\n<\/head>\n<body>\n    <div class=\"container\">\n        <h1 class=\"text\">NOPLAY NOPLAY NOPLAY NOPLAY NOPLAY NOPLAY NOPLAY NOPLAY NOPLAY NOPLAY NOPLAY NOPLAY<\/h1>\n    <\/div>\n<\/body>\n<\/html>",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
     "07882013-b2bd-4803-b265-04496caa0f32": {
       "type": "image-banner",
       "settings": {
@@ -65,11 +74,22 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "024d551c-1908-43f5-9043-8bae881dbf6d": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Animation CSS<\/title>\n    <style>\n        @font-face {\n            font-family: \"Horizon\";\n            src: url('horizon.woff') format('woff'); \/* Format WOFF *\/\n            font-weight: normal;\n            font-style: normal;\n        }\n\n        body {\n            font-family: \"Horizon\", sans-serif; \/* Utilisation de la police définie *\/\n            margin: 0;\n            padding: 0;\n        }\n\n        h1 {\n            font-size: 4rem;\n            margin: 0px;\n        }\n\n        .container {\n            overflow: hidden;\n            background-color: black;\n            width: 100%;\n            height: auto;\n            overflow: hidden;\n            position: relative;\n        }\n\n        .text-reverse {\n            color: white;\n            white-space: nowrap;\n            position: relative;\n            animation: defilement-reverse 30s linear infinite;\n        }\n\n        @keyframes defilement-reverse {\n            0% {\n                left: 0%; \/* Départ à droite *\/\n            }\n            50% {\n                left: -100%; \/* Arrêt à gauche à mi-chemin *\/\n            }\n            100% {\n                left: 0%; \/* Retour à droite *\/\n            }\n        }\n    <\/style>\n<\/head>\n<body>\n    <div class=\"container\">\n        <h1 class=\"text-reverse\">NOPLAY NOPLAY NOPLAY NOPLAY NOPLAY NOPLAY NOPLAY NOPLAY NOPLAY NOPLAY NOPLAY NOPLAY<\/h1>\n    <\/div>\n<\/body>\n<\/html>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "99acd50c-6dbe-4e1c-ad3e-a79fc34bc1ba",
-    "07882013-b2bd-4803-b265-04496caa0f32"
+    "1abe248e-12da-4361-a544-0248f3b9e952",
+    "07882013-b2bd-4803-b265-04496caa0f32",
+    "024d551c-1908-43f5-9043-8bae881dbf6d"
   ]
 }
