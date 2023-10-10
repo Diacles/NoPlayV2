@@ -337,6 +337,13 @@
         {%- endif -%}
       </a>
     </div>
+    {% if page.url == "/pages/hub" %}
+      {%- style -%}
+         .header__icon--menu{
+            display:none;
+         }
+      {%- endstyle -%}
+    {% endif %}
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
 
@@ -495,14 +502,6 @@
     }
   </script>
 {%- endif -%}
-
-{% if page.url == "/pages/hub" %}
-  {%- style -%}
-     .header__icon--menu{
-        display:none;
-     }
-  {%- endstyle -%}
-{% endif %}
 
 {% schema %}
 {
