@@ -170,7 +170,9 @@
       {%- if request.page_type == 'index' -%}
         <h1 class="header__heading">
       {%- endif -%}
-          <a href="/pages/hub" class="header__heading-link link link--text focus-inset">
+          <h1>Test 1 : {{ pages.hub }}</h1>
+          <h1>Test 2 : {{ pages.hub.url }}</h1>
+          <a href="{{ pages.hub }}" class="header__heading-link link link--text focus-inset">
             {%- if settings.logo != blank -%}
               <div class="header__heading-logo-wrapper">
                 {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
