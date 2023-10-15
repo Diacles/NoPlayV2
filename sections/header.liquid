@@ -109,7 +109,7 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-  {%- endstyle -%}
+{%- endstyle -%}
 
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
@@ -161,16 +161,18 @@
       if section.settings.menu != blank
         render 'header-drawer'
       endif
-      {% comment %} if section.settings.logo_position == 'top-center' or section.settings.menu == blank
-        render 'header-search', input_id: 'Search-In-Modal-1'
-      endif {% endcomment %}
-      -%}
+    -%}
+      {% comment %}
+          if section.settings.logo_position == 'top-center' or section.settings.menu == blank
+            render 'header-search', input_id: 'Search-In-Modal-1'
+          endif
+      {% endcomment %}
 
     {%- if section.settings.logo_position != 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
         <h1 class="header__heading">
       {%- endif -%}
-          <a href="{{ pages.hub.url }}" class="header__heading-link link link--text focus-inset">
+          <a href="{{ pages.hub }}" class="header__heading-link link link--text focus-inset">
             {%- if settings.logo != blank -%}
               <div class="header__heading-logo-wrapper">
                 {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
@@ -210,7 +212,7 @@
       {%- if request.page_type == 'index' -%}
         <h1 class="header__heading">
       {%- endif -%}
-          <a href="{{ pages.hub.url }}" class="header__heading-link link link--text focus-inset">
+          <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
             {%- if settings.logo != blank -%}
               <div class="header__heading-logo-wrapper">
                 {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
