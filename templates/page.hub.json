@@ -32,7 +32,7 @@
           "settings": {
             "heading": "DVD",
             "image": "shopify:\/\/shop_images\/dvd-logo2048x1024.png",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/dvd",
             "heading_size": "hxl"
           }
         }
