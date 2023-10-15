@@ -23,7 +23,7 @@
           "type": "heading",
           "settings": {
             "heading": "BOOK",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/book",
             "heading_size": "h1"
           }
         },
