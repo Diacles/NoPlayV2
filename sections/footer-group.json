@@ -17,7 +17,7 @@
         "fa1c8c90-4efa-4027-9140-3843bcc5231c"
       ],
       "custom_css": [
-        "h2 {font-size:1rm;}"
+
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -29,7 +29,7 @@
         "enable_language_selector": false,
         "payment_enable": false,
         "show_policy": false,
-        "margin_top": 32,
+        "margin_top": 0,
         "padding_top": 0,
         "padding_bottom": 0
       }

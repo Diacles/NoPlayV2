@@ -7,7 +7,7 @@
 }
 
 .footer__content-top {
-  padding-bottom: 5rem;
+  /* padding-bottom: 5rem; */
   display: block;
 }
 
@@ -27,7 +27,7 @@
   }
 
   .footer__content-top {
-    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
     padding-left: calc(4rem / var(--font-body-scale));
     padding-right: calc(4rem / var(--font-body-scale));
   }
@@ -259,7 +259,7 @@
 }
 
 .footer__localization h2 {
-  margin: 1rem 1rem 0.5rem;
+  /* margin: 1rem 1rem 0.5rem; */
   color: rgba(var(--color-foreground), 0.75);
 }
 
@@ -270,7 +270,7 @@
   }
 
   .footer__localization h2 {
-    margin: 1rem 0 0;
+    /* margin: 1rem 0 0; */
   }
 }
 
@@ -362,7 +362,7 @@
 @media screen and (max-width: 989px) {
   .footer-block__details-content .list-menu__item--link {
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
   }
 }
 
@@ -514,19 +514,3 @@
   margin-right: 20px;
 }
 
-/* Appliquez un style pour centrer le texte dans les éléments de la liste */
-.footer-block__details-content h2 {
-  text-align: center;
-}
-
-/* Supprimez la liste de puces et les marges par défaut */
-.footer-block__details-content {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* Ajoutez un espacement entre les éléments et un retour à la ligne */
-.footer-block__details-content li {
-  margin-bottom: 10px; /* Ajustez la valeur selon vos besoins */
-}

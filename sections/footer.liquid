@@ -373,6 +373,32 @@
     </div>
   </div>
 </footer>
+<style>
+  .footer-block__details-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .side-margin {
+    margin: 10px 0; /* Vous pouvez ajuster la marge verticale selon vos besoins */
+    text-align: center; /* Centrer le contenu horizontalement */
+  }
+
+  .footer-block h2 {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  @media (max-width: 767px) {
+    .footer-block h2 {
+      font-size: 1rem; /* Taille pour les appareils mobiles (largeur d'écran <= 767px) */
+    }
+  }
+</style>
+
+
 
 {% schema %}
 {
