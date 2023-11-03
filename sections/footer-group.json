@@ -16,6 +16,9 @@
       "block_order": [
         "fa1c8c90-4efa-4027-9140-3843bcc5231c"
       ],
+      "custom_css": [
+        "h2 {font-size:1rm;}"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": false,
