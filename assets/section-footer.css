@@ -513,3 +513,20 @@
   margin-left: 20px;
   margin-right: 20px;
 }
+
+/* Appliquez un style pour centrer le texte dans les éléments de la liste */
+.footer-block__details-content h2 {
+  text-align: center;
+}
+
+/* Supprimez la liste de puces et les marges par défaut */
+.footer-block__details-content {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ajoutez un espacement entre les éléments et un retour à la ligne */
+.footer-block__details-content li {
+  margin-bottom: 10px; /* Ajustez la valeur selon vos besoins */
+}
