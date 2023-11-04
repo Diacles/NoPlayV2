@@ -23,7 +23,7 @@
     "359cc235-3f1b-490e-99b5-e8eb0d97f0e8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.url == \"\/pages\/hub\" %}\n      {%- style -%}\n         .header__icon--menu{\n            display:none;\n         },\n         .header__heading-logo {\n            width:500px;\n         }\n      {%- endstyle -%}\n{% endif %}\n{% if page.url != \"\/pages\/hub\" %}\n      {%- style -%}\n         .hub-header{\n            display:none;\n         }\n      {%- endstyle -%}\n{% endif %}\n{% if page.url == \"\/pages\/hub\" %}\n      {%- style -%}\n         .header{\n            display:none;\n         }\n      {%- endstyle -%}\n{% endif %}",
+        "custom_liquid": "{% if page.url == \"\/pages\/hub\" %}\n      {%- style -%}\n         .header__icon--menu{\n            display:none;\n         },\n      {%- endstyle -%}\n{% else %} \n    {%- style -%}\n        .header__heading-logo {\n            width: 200px;\n        }\n    {%- endstyle -%}\n{% endif %}\n{% if page.url != \"\/pages\/hub\" %}\n      {%- style -%}\n         .hub-header{\n            display:none;\n         }\n      {%- endstyle -%}\n{% endif %}\n{% if page.url == \"\/pages\/hub\" %}\n      {%- style -%}\n         .header{\n            display:none;\n         }\n      {%- endstyle -%}\n{% endif %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
