@@ -31,7 +31,6 @@
     },
     "9d66a8a0-72cb-485c-a2ce-c204b94bb3ca": {
       "type": "hub-header",
-      "disabled": true,
       "settings": {
         "logo_position": "top-center",
         "menu": "main-menu",
