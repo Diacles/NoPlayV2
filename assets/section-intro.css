@@ -503,3 +503,7 @@ footer {
     font-size: 2.5rem;
     font-family: 'Horizon';
   }
+
+.white-text {
+    color:white;
+}
